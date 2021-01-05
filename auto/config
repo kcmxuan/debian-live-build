@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--architectures amd64 \
+	--distribution buster \
+	--archive-areas "main contrib non-free" \
+    --mirror-bootstrap http://mirrors.huaweicloud.com/debian/ \
+    --mirror-binary http://mirrors.huaweicloud.com/debian/ \
+    --mirror-binary-security http://mirrors.huaweicloud.com/debian-security \
+	--mirror-chroot-security http://mirrors.huaweicloud.com/debian-security \
+	"${@}"

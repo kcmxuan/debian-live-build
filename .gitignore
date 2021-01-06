@@ -30,3 +30,4 @@ source*.contents
 source*.packages
 source*.zsync
 debian-buster-live-image*
+chroot.files

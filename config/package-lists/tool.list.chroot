@@ -1,3 +1,5 @@
 debootstrap
 openssh-server
 vim
+tree
+unzip

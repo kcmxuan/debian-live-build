@@ -1,9 +1,15 @@
 xorg
 bspwm
-kitty
+mate-polkit-bin
+terminator
 ranger
 feh
 rofi
 x11-xserver-utils
 bash-completion
 fonts-ibm-plex
+fonts-wqy-microhei
+fcitx
+fcitx-rime
+fcitx-googlepinyin
+arc-theme
